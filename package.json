@@ -1,14 +1,14 @@
 {
   "name": "fizz-buzz",
   "version": "1.0.0",
-  "description": "$ npm i -S  react react-dom",
+  "description": "Fizz-Buzz Example React.js, Typescript, Jest, Babel, Webpack",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "test": "jest"
   },
-  "author": "",
+  "author": "siddhartha",
   "license": "ISC",
   "dependencies": {
     "react": "^16.8.1",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@types/jest": "^24.0.1",
+    "@types/jest-diff": "^20.0.0",
     "@types/react": "^16.8.2",
     "@types/react-dom": "^16.8.0",
     "awesome-typescript-loader": "^5.2.1",
