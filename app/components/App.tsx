@@ -50,7 +50,7 @@ export class App extends React.PureComponent<IAppProps, IAppState> {
         return rangeArray.map((number, key) => {
             const componentType = getFizzBuzz(number);
             let component: JSX.Element;
-            console.log(key)
+            
             switch (componentType) {
                 case IdFizzBuzz.BUZZ:
                     component = <Buzz/>;
